@@ -1,7 +1,7 @@
 <h2>Liquid-Cooled Thermal Management Plate</h2>
 
 <p align="center">
-  <img src="assets/dimensioned-cad-drawing(1).png"
+  <img src="assets/dimensioned-cad-drawing.png"
        alt="Dimensioned CAD drawing of the cooling plate"
        style="max-width: 100%; height: auto;"><br>
   <em>Fig. 1 Dimensioned drawing of the cooling-plate and manifold assembly.</em>
@@ -17,7 +17,7 @@
 <p align="center">
   <img src="assets/exploded-cad-assembly.png"
        alt="Exploded CAD assembly of the cooling plate"
-       style="max-width: 100%; height: auto;"><br>
+       style="max-width: 75%; height: auto;"><br>
   <em>Fig. 2 Exploded CAD view showing the plate, gasket, mounting hardware, and coolant manifolds.</em>
 </p>
 
