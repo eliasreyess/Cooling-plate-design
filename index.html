@@ -1,17 +1,25 @@
+<!-- Replace ENTER-TOP-IMAGE-FILENAME.jpg with your image filename -->
+<p align="center">
+  <img src="assets/IMG_0433.jpeg"
+       alt="Completed liquid-cooled thermal management plate"
+       style="max-width: 75%; height: auto;"><br>
+  <em>Completed liquid-cooled thermal management plate.</em>
+</p>
+
 <h2>Liquid-Cooled Thermal Management Plate</h2>
 
 <p align="center">
   <img src="assets/dimensioned-cad-drawing.png"
        alt="Dimensioned CAD drawing of the cooling plate"
        style="max-width: 75%; height: auto;"><br>
-  <em>Fig. 1 Dimensioned drawing of the cooling-plate and manifold assembly.</em>
+  <em>Fig. 1 Dimensioned drawing of the cooling-plate shell.</em>
 </p>
 
 <p>
-  I designed and tested a compact liquid-cooling plate for a 22 W PTC heat
-  source. The engineering objective was to maintain a safe, uniform surface
-  temperature while evaluating cooling performance at different coolant flow
-  rates and under pump-failure conditions.
+  I designed and tested a compact liquid-cooling plate for a 22 W heat
+  source. The engineering objective was to validate conduction and convection
+  concepts learned in a heat transfer class by experimentally evaluating
+  temperature distribution and cooling performance.
 </p>
 
 <p align="center">
@@ -22,10 +30,9 @@
 </p>
 
 <p>
-  The system combined a custom CAD assembly, sealed coolant channels,
-  temperature sensors, Arduino-based data acquisition, and MATLAB data
-  analysis. The assembly was designed to be compact and serviceable, with
-  removable manifolds, gaskets, and bolted construction.
+  The assembly consist of a 3D-printed outer body shell that directs waterflow
+  over a thin copper diaphragm. This design also includes a silicone gasket
+  around the shell perimeter, which acts as an insulator and sealer.
 </p>
 
 <h3>Engineering Achievements</h3>
@@ -33,7 +40,7 @@
 <ul>
   <li>Designed a compact cooling-plate assembly with manifolds, gaskets, and bolted construction.</li>
   <li>Produced dimensioned drawings and an exploded CAD model for manufacturing and assembly.</li>
-  <li>Instrumented the inlet, middle, outlet, and cooling fluid with temperature sensors.</li>
+  <li>Instrumented the inlet, middle, and outlet sections with temperature sensors via Arduino.</li>
   <li>Evaluated steady-state performance, pump-failure recovery, and three coolant flow rates.</li>
   <li>Processed experimental data in MATLAB to compare temperature response and cooldown performance.</li>
 </ul>
@@ -66,6 +73,27 @@
   to below 30 °C. The completed prototype demonstrated effective thermal
   management, repeatable performance, and reliable recovery from coolant-flow
   interruption.
+</p>
+
+<!-- Replace ENTER-FINAL-IMAGE-FILENAME.jpg with your image filename -->
+<p align="center">
+  <img src="assets/IMG_0597.jpeg"
+       alt="Cooling plate experimental setup and completed prototype"
+       style="max-width: 75%; height: auto;"><br>
+  <em>Fig. 5 Experimental setup and completed cooling-plate prototype.</em>
+</p>
+
+<h3>Conclusion</h3>
+
+<p>
+  The experimental results successfully verified the conduction and convection
+  equations studied in the heat transfer class. The measured temperature
+  responses followed the behavior predicted by the theoretical heat-transfer
+  relationships. The water-column thickness inside the shell could have been
+  reduced to create a more compact design and decrease the required coolant
+  volume. However, the limiting factor in this project was the accuracy and
+  resolution of the temperature sensors, which made smaller temperature
+  differences difficult to measure reliably.
 </p>
 
 <p align="center">
